@@ -226,7 +226,7 @@
     .my-image-cls {
         height: 180px;
         width: 130px;
-        background-image: url("/Images/my-image.jpeg");
+        background-image: url("Images/my-image.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;

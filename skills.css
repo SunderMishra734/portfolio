@@ -1,0 +1,61 @@
+main {
+    margin-top: 80px;
+}
+
+.skills-section-cls {
+    display: flex;
+}
+
+.chonburi-regular {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.my-skills-txt-cls {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.skills-left-container-cls {
+    flex: 1;
+}
+
+.skills-right-container-cls {
+    flex: 1;
+}
+
+.download-resume-cls {
+    padding: 10px 25px;
+    background-color: #97BCC7;
+    width: fit-content;
+    border-radius: 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.resume-preview-cls {
+    height: 550px;
+    width: 390px;
+    background-image: url("/Images/resume.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.skilss-cls {
+    display: flex;
+    gap: 100px;
+}
+
+.skilss-cls h4 {
+    color: #D9D9D9;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.skilss-cls ul li {
+    color: #97BCC7;
+    padding: 8px;
+}

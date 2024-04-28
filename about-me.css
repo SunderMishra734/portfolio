@@ -1,0 +1,103 @@
+main {
+    margin-top: 100px;
+}
+
+.about-me-section-cls {
+    display: flex;
+}
+
+.chonburi-regular {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.about-me-txt-cls {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.about-me-content-cls {
+    color: #97BCC7;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-me-left-container-cls {
+    flex: 1;
+}
+
+.about-me-right-container-cls {
+    flex: 1;
+    height: 500px;
+}
+
+.track-line-cls {
+    height: 100%;
+    width: 2px;
+    background-color: #97BCC7;
+    position: relative;
+    left: 50%;
+}
+
+.common-horizontal-line-cls {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background-color: #97BCC7;
+}
+
+.address-track-cls {
+    bottom: 10px;
+    right: 0px;
+}
+
+.school-track-cls {
+    bottom: 130px;
+}
+
+.high-school-track-cls {
+    right: 0px;
+    top: 235px;
+}
+
+.eng-track-cls {
+    top: 100px;
+}
+
+.work-track-cls {
+    right: 0px;
+}
+
+.common-container-cls {
+    height: 100px;
+    width: 200px;
+    background-color: #053D57;
+    border-radius: 15px;
+    position: absolute;
+    padding: 15px 12px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.address-container-cls {
+    bottom: -50px;
+    left: -200px;
+}
+
+.school-container-cls {
+    left: 50px;
+    bottom: -48px;
+}
+
+.high-container-cls {
+    right: 50px;
+    bottom: -48px;
+}
+
+.work-container-cls {
+    bottom: -48px;
+    right: 50px;
+}

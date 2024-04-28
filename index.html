@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- all css files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- this is for home page only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- all script files -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="home.js"></script>
+    <script src="script.js"></script>
+    <!--  -->
     <title>Sunder's Portfolio</title>
 </head>
-<body>
-    <div>hello world...</div>
+
+<body class="share-tech-mono-regular">
+    <header>
+        <div class="logo-cls">&lt;/Sunder&gt;
+        </div>
+        <div class="nav-bar-container-cls">
+            <div class="close-menu-cls">
+                <img src="Images/close-icon.svg" alt="close menu image">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact-me.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-container-cls">
+            <img src="Images/menu-icon.svg" alt="menu-image">
+        </div>
+    </header>
+    <main>
+        <section class="home-section-cls">
+            <div class="home-left-container-cls">
+                <p class="chonburi-regular">Hi, I am Sunder!</p>
+                <p class="chonburi-regular">Software Engineer</p>
+                <div class="contact-me-link-container">
+                    <a href="/contact-me.html" style="color: inherit; text-decoration: none;">
+                        <div class="contact-me-btn-cls">
+                            <span style="display: inline-block;">Contact Me</span>
+                        </div>
+                    </a>
+                    <i class="ri-github-fill github-icon-cls"></i>
+                    <!-- <ion-icon name="logo-linkedin"></ion-icon> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="28" fill="currentColor"
+                        class="linkdin-icon-cls">
+                        <path
+                            d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457-.592 0-.945.398-1.1.784-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066 1.41 0 2.468.922 2.468 2.902zM6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115-.014-.632-.465-1.114-1.199-1.114zm-1.086 9.556h2.144V8.38H5.127v6.447z">
+                        </path>
+                        <path
+                            d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="home-right-container-cls">
+                <pre>
+                let button_menu = document.querySelector(".header_button");
+                let float_menu  = document.querySelector(".header_menu--float");
+                
+                let line_top   = document.querySelector(".header_button_line--top");
+                let line_under = document.querySelector(".header_button_line--bottom");
+                
+                button_menu.isSelected = false;
+                
+                function addEffectWriting(element, time) {
+                  let element_array = element.innerText.split("");
+                
+                  element.count     = 0;
+                  element.innerText = "";
+                
+                  function writeSymbols() {
+                    element.innerText += element_array[element.count];
+                    element.count++;
+                
+                    if (element.count &lt;= element_array.length) {
+                      setTimeout(() => {
+                        writeSymbols();
+                      }, time);
+                    } else if (element.count >= element_array.length) {
+                      element.count     = 0;
+                      element.innerText = "";
+                
+                      writeSymbols();
+                    }
+                  }
+                  writeSymbols();
+                }
+                </pre>
+                <div class="rectangle1-cls"></div>
+                <div class="rectangle2-cls"></div>
+                <div class="my-image-cls">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

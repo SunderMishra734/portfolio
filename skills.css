@@ -1,61 +1,210 @@
-main {
-    margin-top: 80px;
+@media(min-width:1024px) {
+    main {
+        margin-top: 80px;
+    }
+
+    .skills-section-cls {
+        display: flex;
+    }
+
+    .chonburi-regular {
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
+
+    .my-skills-txt-cls {
+        font-size: 70px;
+        color: #ffffff;
+    }
+
+    .skills-left-container-cls {
+        flex: 1;
+    }
+
+    .skills-right-container-cls {
+        flex: 1;
+    }
+
+    .download-resume-cls {
+        padding: 10px 25px;
+        background-color: #97BCC7;
+        width: fit-content;
+        border-radius: 20px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .resume-container-cls {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .resume-preview-cls {
+        height: 550px;
+        width: 390px;
+        background-image: url("/Images/resume.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .skilss-cls {
+        display: flex;
+        gap: 100px;
+    }
+
+    .skilss-cls h4 {
+        color: #D9D9D9;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .skilss-cls ul li {
+        color: #97BCC7;
+        padding: 8px;
+    }
 }
 
-.skills-section-cls {
-    display: flex;
+@media((min-width:769px) and (max-width:1023px)) {
+    main {
+        margin-top: 80px;
+    }
+
+    .skills-section-cls {
+        display: flex;
+    }
+
+    .chonburi-regular {
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
+
+    .my-skills-txt-cls {
+        font-size: 70px;
+        color: #ffffff;
+    }
+
+    .skills-left-container-cls {
+        flex: 1;
+    }
+
+    .skills-right-container-cls {
+        flex: 1;
+    }
+
+    .download-resume-cls {
+        padding: 10px 25px;
+        background-color: #97BCC7;
+        width: fit-content;
+        border-radius: 20px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .resume-container-cls {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .resume-preview-cls {
+        height: 550px;
+        width: 390px;
+        background-image: url("/Images/resume.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .skilss-cls {
+        display: flex;
+        gap: 100px;
+    }
+
+    .skilss-cls h4 {
+        color: #D9D9D9;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .skilss-cls ul li {
+        color: #97BCC7;
+        padding: 8px;
+    }
 }
 
-.chonburi-regular {
-    font-family: "Chonburi", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 15px;
-}
+@media(max-width:768px) {
+    main {
+        margin-top: 50px;
+    }
 
-.my-skills-txt-cls {
-    font-size: 70px;
-    color: #ffffff;
-}
+    .skills-section-cls {
+        /* display: flex; */
+    }
 
-.skills-left-container-cls {
-    flex: 1;
-}
+    .chonburi-regular {
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
 
-.skills-right-container-cls {
-    flex: 1;
-}
+    .my-skills-txt-cls {
+        font-size: 35px;
+        color: #ffffff;
+    }
 
-.download-resume-cls {
-    padding: 10px 25px;
-    background-color: #97BCC7;
-    width: fit-content;
-    border-radius: 20px;
-    cursor: pointer;
-    user-select: none;
-}
+    .skills-left-container-cls {
+        /* flex: 1; */
+    }
 
-.resume-preview-cls {
-    height: 550px;
-    width: 390px;
-    background-image: url("/Images/resume.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+    .skills-right-container-cls {
+        /* flex: 1; */
+    }
 
-.skilss-cls {
-    display: flex;
-    gap: 100px;
-}
+    .download-resume-cls {
+        padding: 5px 12.5px;
+        background-color: #97BCC7;
+        width: fit-content;
+        border-radius: 15px;
+        cursor: pointer;
+        user-select: none;
+    }
 
-.skilss-cls h4 {
-    color: #D9D9D9;
-    font-size: 18px;
-    margin-top: 20px;
-}
+    .resume-container-cls {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
 
-.skilss-cls ul li {
-    color: #97BCC7;
-    padding: 8px;
+    .resume-preview-cls {
+        height: 490px;
+        width: 340px;
+        background-image: url("/Images/resume.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .skilss-cls {
+        display: flex;
+        gap: 50px;
+    }
+
+    .skilss-cls h4 {
+        color: #D9D9D9;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .skilss-cls ul li {
+        color: #97BCC7;
+        padding: 4px 8px;
+    }
 }

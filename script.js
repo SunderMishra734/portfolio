@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    var screenHeight = $(window).height();
+    console.log(screenHeight);
+    $("body").css("height", screenHeight);
     $(window).resize(function () {
         if ($(window).width() > 768) {
             $(".nav-bar-container-cls").show(); 

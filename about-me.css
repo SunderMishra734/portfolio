@@ -1,103 +1,325 @@
-main {
-    margin-top: 100px;
+@media(min-width:1024px) {
+    main {
+        margin-top: 100px;
+    }
+
+    .about-me-section-cls {
+        display: flex;
+    }
+
+    .chonburi-regular {
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
+
+    .about-me-txt-cls {
+        font-size: 70px;
+        color: #ffffff;
+    }
+
+    .about-me-content-cls {
+        color: #97BCC7;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .about-me-left-container-cls {
+        flex: 1;
+    }
+
+    .about-me-right-container-cls {
+        flex: 1;
+        height: 500px;
+    }
+
+    .track-line-cls {
+        height: 100%;
+        width: 2px;
+        background-color: #97BCC7;
+        position: relative;
+        left: 50%;
+    }
+
+    .common-horizontal-line-cls {
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        background-color: #97BCC7;
+    }
+
+    .address-track-cls {
+        bottom: 10px;
+        right: 0px;
+    }
+
+    .school-track-cls {
+        bottom: 130px;
+    }
+
+    .high-school-track-cls {
+        right: 0px;
+        top: 235px;
+    }
+
+    .eng-track-cls {
+        top: 100px;
+    }
+
+    .work-track-cls {
+        right: 0px;
+    }
+
+    .common-container-cls {
+        height: 100px;
+        width: 200px;
+        background-color: #053D57;
+        border-radius: 15px;
+        position: absolute;
+        padding: 15px 12px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .address-container-cls {
+        bottom: -50px;
+        left: -200px;
+    }
+
+    .school-container-cls {
+        left: 50px;
+        bottom: -48px;
+    }
+
+    .high-container-cls {
+        right: 50px;
+        bottom: -48px;
+    }
+
+    .work-container-cls {
+        bottom: -48px;
+        right: 50px;
+    }
+
+    .common-heading-text-about-me {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
 }
 
-.about-me-section-cls {
-    display: flex;
+@media((min-width:769px) and (max-width:1023px)) {
+    main {
+        margin-top: 100px;
+    }
+
+    .about-me-section-cls {
+        display: flex;
+    }
+
+    .chonburi-regular {
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
+
+    .about-me-txt-cls {
+        font-size: 70px;
+        color: #ffffff;
+    }
+
+    .about-me-content-cls {
+        color: #97BCC7;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .about-me-left-container-cls {
+        flex: 1;
+    }
+
+    .about-me-right-container-cls {
+        flex: 1;
+        height: 500px;
+    }
+
+    .track-line-cls {
+        height: 100%;
+        width: 2px;
+        background-color: #97BCC7;
+        position: relative;
+        left: 50%;
+    }
+
+    .common-horizontal-line-cls {
+        position: absolute;
+        width: 50px;
+        height: 1px;
+        background-color: #97BCC7;
+    }
+
+    .address-track-cls {
+        bottom: 10px;
+        right: 0px;
+    }
+
+    .school-track-cls {
+        bottom: 130px;
+    }
+
+    .high-school-track-cls {
+        right: 0px;
+        top: 235px;
+    }
+
+    .eng-track-cls {
+        top: 100px;
+    }
+
+    .work-track-cls {
+        right: 0px;
+    }
+
+    .common-container-cls {
+        height: 100px;
+        width: 200px;
+        background-color: #053D57;
+        border-radius: 15px;
+        position: absolute;
+        padding: 15px 12px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .address-container-cls {
+        bottom: -50px;
+        left: -200px;
+    }
+
+    .school-container-cls {
+        left: 50px;
+        bottom: -48px;
+    }
+
+    .high-container-cls {
+        right: 50px;
+        bottom: -48px;
+    }
+
+    .work-container-cls {
+        bottom: -48px;
+        right: 50px;
+    }
+
+    .common-heading-text-about-me {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
 }
 
-.chonburi-regular {
-    font-family: "Chonburi", serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-bottom: 15px;
-}
+@media(max-width:768px) {
+    html {
+        font-size: 62.5%;
+    }
 
-.about-me-txt-cls {
-    font-size: 70px;
-    color: #ffffff;
-}
+    main {
+        margin-top: 50px;
+    }
 
-.about-me-content-cls {
-    color: #97BCC7;
-    font-size: 18px;
-    text-align: justify;
-}
+    .about-me-section-cls {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 5rem;
+    }
 
-.about-me-left-container-cls {
-    flex: 1;
-}
+    .chonburi-regular {
+        font-family: "Chonburi", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 15px;
+    }
 
-.about-me-right-container-cls {
-    flex: 1;
-    height: 500px;
-}
+    .about-me-txt-cls {
+        font-size: 35px;
+        color: #ffffff;
+    }
 
-.track-line-cls {
-    height: 100%;
-    width: 2px;
-    background-color: #97BCC7;
-    position: relative;
-    left: 50%;
-}
+    .about-me-content-cls {
+        color: #97BCC7;
+        font-size: 16px;
+        text-align: justify;
+    }
 
-.common-horizontal-line-cls {
-    position: absolute;
-    width: 50px;
-    height: 1px;
-    background-color: #97BCC7;
-}
+    .about-me-left-container-cls {
+        flex: 1;
+    }
 
-.address-track-cls {
-    bottom: 10px;
-    right: 0px;
-}
+    .about-me-right-container-cls {
+        height: 50rem;
+        padding: 1.2rem;
+    }
 
-.school-track-cls {
-    bottom: 130px;
-}
+    .track-line-cls {
+        height: 100%;
+        width: 2px;
+        background-color: #97BCC7;
+        position: relative;
+        left: 50%;
+    }
 
-.high-school-track-cls {
-    right: 0px;
-    top: 235px;
-}
+    .common-horizontal-line-cls {
+        position: absolute;
+        background-color: #97BCC7;
+    }
 
-.eng-track-cls {
-    top: 100px;
-}
+    .address-track-cls {
+        top: -1rem;
+        right: 0px;
+    }
 
-.work-track-cls {
-    right: 0px;
-}
+    .school-track-cls {
+        top: 11rem;
+    }
 
-.common-container-cls {
-    height: 100px;
-    width: 200px;
-    background-color: #053D57;
-    border-radius: 15px;
-    position: absolute;
-    padding: 15px 12px;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 500;
-}
+    .high-school-track-cls {
+        right: 0px;
+        top: 23rem;
+    }
 
-.address-container-cls {
-    bottom: -50px;
-    left: -200px;
-}
+    .eng-track-cls {
+        top: 35rem;
+    }
 
-.school-container-cls {
-    left: 50px;
-    bottom: -48px;
-}
+    .work-track-cls {
+        top: 47rem;
+    }
 
-.high-container-cls {
-    right: 50px;
-    bottom: -48px;
-}
+    .common-container-cls {
+        height: 9rem;
+        width: 20rem;
+        background-color: #053D57;
+        border-radius: 1.2rem;
+        position: absolute;
+        padding: 1.3rem 0.96rem;
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
 
-.work-container-cls {
-    bottom: -48px;
-    right: 50px;
+    .address-container-cls,
+    .school-container-cls,
+    .high-container-cls,
+    .work-container-cls {
+        left: -10rem;
+    }
+
+    .common-heading-text-about-me {
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
 }

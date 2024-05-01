@@ -1,12 +1,35 @@
 $(document).ready(function () {
-    var screenHeight = $(window).height();
-    console.log(screenHeight);
-    $("body").css("height", screenHeight);
+    function checkHeightSmallScreen() {
+        var contentHeight = $('body').height();
+        var screenHeight = $(window).height();
+        if (contentHeight > screenHeight) {
+            $("body").css("height", "auto");
+        } else {
+            $("body").css("height", "100vh");
+        }
+    }
+    checkHeightSmallScreen()
+
+    function checkHeightForBigScreen() {
+        console.log("yes");
+        var contentHeight = $('body').height();
+        var screenHeight = $(window).height();
+        var viewportHeight = window.innerHeight;
+        if (viewportHeight > screenHeight) {
+            $("body").css("height", "auto");
+        } else {
+            $("body").css("height", "100vh");
+        }
+    }
+    checkHeightForBigScreen();
+
     $(window).resize(function () {
         if ($(window).width() > 768) {
+            checkHeightSmallScreen();
             $(".nav-bar-container-cls").show(); 
         } else {
             $(".nav-bar-container-cls").hide(); 
+            checkHeightSmallScreen()
         }
     });
   

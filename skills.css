@@ -45,7 +45,7 @@
     .resume-preview-cls {
         height: 550px;
         width: 390px;
-        background-image: url("/Images/resume.png");
+        background-image: url("Images/resume.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -115,7 +115,7 @@
     .resume-preview-cls {
         height: 550px;
         width: 390px;
-        background-image: url("/Images/resume.png");
+        background-image: url("Images/resume.png");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

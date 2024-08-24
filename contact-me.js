@@ -30,6 +30,7 @@ $(document).ready(function () {
                 alert("Please enter name and message");
             }
             else if (name != "" && email != "" && ValidateEmail(email) && message != "") {
+                $("#formSubmit").submit();
                 alert("your message send successfully...");
             }
         }

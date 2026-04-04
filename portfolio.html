@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunder's Portfolio</title>
+    <!-- favicon -->
+    <link rel="icon" href="Images/portfolio-favicon.png" type="icon/png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+    
+    <!-- Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="master.css?v=1.2.2">
+</head>
+
+<body class="share-tech-mono-regular">
+    <header>
+        <div class="logo-cls">&lt;/Sunder&gt;</div>
+        <div class="nav-bar-container-cls">
+            <div class="close-menu-cls">
+                <img src="Images/close-icon.svg" alt="close menu image">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu-container-cls">
+            <img src="Images/menu-icon.svg" alt="menu-image">
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section-cls reveal">
+            <div class="home-left-container-cls reveal-left">
+                <div class="typing-container">
+                    <p class="chonburi-regular typing-text">Hi, I am Sunder!</p>
+                </div>
+                <p class="chonburi-regular role-text">Software Engineer</p>
+                <div class="contact-me-link-container">
+                    <a href="#contact" style="color: inherit; text-decoration: none;">
+                        <button class="contact-me-btn-cls">
+                            <span style="display: inline-block;">Contact Me</span>
+                        </button>
+                    </a>
+                    <i class="ri-github-fill github-icon-cls"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="44" fill="currentColor"
+                        class="linkdin-icon-cls">
+                        <path
+                            d="M15 11.13v3.697h-2.143v-3.45c0-.866-.31-1.457-1.086-1.457-.592 0-.945.398-1.1.784-.056.138-.071.33-.071.522v3.601H8.456s.029-5.842 0-6.447H10.6v.913l-.014.021h.014v-.02c.285-.44.793-1.066 1.932-1.066 1.41 0 2.468.922 2.468 2.902zM6.213 5.271C5.48 5.271 5 5.753 5 6.385c0 .62.466 1.115 1.185 1.115h.014c.748 0 1.213-.496 1.213-1.115-.014-.632-.465-1.114-1.199-1.114zm-1.086 9.556h2.144V8.38H5.127v6.447z">
+                        </path>
+                        <path
+                            d="M10 18a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0 2C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+            <div class="home-right-container-cls reveal-right">
+                <div class="rectangle1-cls"></div>
+                <div class="rectangle2-cls"></div>
+                <div class="my-image-cls"></div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-me-section-cls reveal">
+            <div class="section-header-container reveal">
+                <p class="chonburi-regular section-title-txt">About Me</p>
+                <div class="section-underline"></div>
+            </div>
+                
+                <div class="reveal-left about-content-wrapper">
+                    <p class="about-me-content-cls">
+                    I am a software engineer with over one year of experience in developing high-quality software that solves real-world
+                    problems. I am proficient in multiple programming languages such as Java, Python, and C++, as well as modern software
+                    development methodologies such as Agile and Scrum.
+                    <br><br>
+                    My technical expertise is complemented by strong communication and interpersonal skills, allowing me to work effectively
+                    with cross-functional teams to deliver software that meets the highest standards of quality.
+                    <br><br>
+                    Overall, I am dedicated to delivering high-quality software that exceeds user expectations and makes a difference in the
+                    world.
+                </p>
+                <div class="resume-container">
+                    <div class="resume-btn-modern">Download Resume</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section-cls reveal">
+            <div class="skills-full-container-cls">
+                <div class="section-header-container reveal">
+                    <p class="chonburi-regular section-title-txt">Technical Skills</p>
+                    <div class="section-underline"></div>
+                </div>
+                
+                <div class="skills-chips-wrapper reveal">
+                    <span class="skill-chip">HTML</span>
+                    <span class="skill-chip">CSS</span>
+                    <span class="skill-chip">JavaScript</span>
+                    <span class="skill-chip">jQuery</span>
+                    <span class="skill-chip">Bootstrap</span>
+                    <span class="skill-chip">Angular</span>
+                    <span class="skill-chip">.NET</span>
+                    <span class="skill-chip">MVC</span>
+                    <span class="skill-chip">APIs</span>
+                    <span class="skill-chip">SQL Server</span>
+                    <span class="skill-chip">Azure</span>
+                    <span class="skill-chip">Git & GitHub</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section id="contact" class="contact-me-section-cls reveal">
+            <div class="section-header-container reveal">
+                <p class="chonburi-regular section-title-txt">Contact Me</p>
+                <div class="section-underline"></div>
+            </div>
+            
+            <div class="contact-chips-container reveal">
+                <div class="contact-chip">
+                    <div class="chip-icon"><i class="ri-mail-fill"></i></div>
+                    <span class="chip-text">sundermishra734@gmail.com</span>
+                </div>
+                <div class="contact-chip">
+                    <div class="chip-icon"><i class="ri-github-fill"></i></div>
+                    <span class="chip-text">/SunderMishra734</span>
+                </div>
+                <div class="contact-chip">
+                    <div class="chip-icon"><i class="ri-linkedin-box-fill"></i></div>
+                    <span class="chip-text">/sunder-mishra-217510211/</span>
+                </div>
+            </div>
+
+            <div class="contact-form-card reveal">
+                <form id="formSubmit" action="https://api.web3forms.com/submit" method="POST">
+                    <p class="form-title">Do you have a job offer?<br>Send me a message!</p>
+                    <input type="hidden" name="access_key" value="748d71e8-3d30-49fb-bb7e-da11246aad58">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name..." class="contact-input" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email..." class="contact-input" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" cols="30" rows="8" class="contact-textarea" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <div class="send-container">
+                        <div class="send-btn">Send Message</div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <!-- Custom JS -->
+    <script src="portfolio.js"></script>
+</body>
+
+</html>

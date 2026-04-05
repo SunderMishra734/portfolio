@@ -7,24 +7,24 @@
     <title>Sunder's Portfolio</title>
     <!-- favicon -->
     <link rel="icon" href="Images/portfolio-favicon.png" type="icon/png">
-    
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    
+
     <!-- Icons -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
-    
+
     <!-- Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="master.css?v=1.2.2">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 
 <body class="share-tech-mono-regular">
@@ -39,6 +39,9 @@
                     <li><a href="#home" class="active">Home</a></li>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </nav>
@@ -75,8 +78,6 @@
                 </div>
             </div>
             <div class="home-right-container-cls reveal-right">
-                <div class="rectangle1-cls"></div>
-                <div class="rectangle2-cls"></div>
                 <div class="my-image-cls"></div>
             </div>
         </section>
@@ -87,18 +88,21 @@
                 <p class="chonburi-regular section-title-txt">About Me</p>
                 <div class="section-underline"></div>
             </div>
-                
-                <div class="reveal-left about-content-wrapper">
-                    <p class="about-me-content-cls">
-                    I am a software engineer with over one year of experience in developing high-quality software that solves real-world
-                    problems. I am proficient in multiple programming languages such as Java, Python, and C++, as well as modern software
-                    development methodologies such as Agile and Scrum.
+
+            <div class="reveal-left about-content-wrapper">
+                <p class="about-me-content-cls">
+                    I’m a Software Engineer with 3+ years of experience building scalable and high-performance web
+                    applications using Angular and .NET Core. I specialize in designing secure REST APIs, implementing
+                    real-time systems with SignalR, and following clean architecture principles to create maintainable
+                    solutions.
                     <br><br>
-                    My technical expertise is complemented by strong communication and interpersonal skills, allowing me to work effectively
-                    with cross-functional teams to deliver software that meets the highest standards of quality.
+                    I enjoy solving complex problems and optimizing system performance, whether it’s improving API
+                    response times or designing efficient database queries. I’ve worked on enterprise-level
+                    applications, migrated legacy systems to modern architectures, and implemented authentication
+                    systems like JWT and SSO.
                     <br><br>
-                    Overall, I am dedicated to delivering high-quality software that exceeds user expectations and makes a difference in the
-                    world.
+                    Currently, I’m focused on building robust full-stack applications and exploring cloud technologies
+                    like Azure, along with modern DevOps practices including Docker and CI/CD.
                 </p>
                 <div class="resume-container">
                     <div class="resume-btn-modern">Download Resume</div>
@@ -113,7 +117,7 @@
                     <p class="chonburi-regular section-title-txt">Technical Skills</p>
                     <div class="section-underline"></div>
                 </div>
-                
+
                 <div class="skills-chips-wrapper reveal">
                     <span class="skill-chip">HTML</span>
                     <span class="skill-chip">CSS</span>
@@ -131,13 +135,177 @@
             </div>
         </section>
 
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section-cls reveal">
+            <div class="section-header-container reveal">
+                <p class="chonburi-regular section-title-txt">Work Experience</p>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="experience-timeline-container reveal">
+                <!-- Exp 1 -->
+                <div class="exp-card reveal-left">
+                    <div class="exp-header">
+                        <div class="role-duration">
+                            <h3 class="role-title">Software Engineer</h3>
+                            <span class="duration">Feb 2025 – Present</span>
+                        </div>
+                        <div class="company-name">
+                            <i class="ri-building-line"></i> K12 Insight, Bandra (Hybrid)
+                        </div>
+                    </div>
+                    <ul class="exp-points">
+                        <li>Develop and maintain scalable web applications using Angular and .NET Core Web API,
+                            improving application performance and user experience.</li>
+                        <li>Implemented JWT-based authentication and authorization, enhancing application security and
+                            protecting user data.</li>
+                        <li>Designed and developed RESTful APIs and optimized SQL Server queries, reducing response time
+                            and improving system efficiency.</li>
+                        <li>Integrated SignalR for real-time chat functionality, enabling instant communication between
+                            users.</li>
+                        <li>Conducted code reviews and implemented unit testing practices, improving code quality and
+                            reducing defects.</li>
+                    </ul>
+                </div>
+
+                <!-- Exp 2 -->
+                <div class="exp-card reveal-right">
+                    <div class="exp-header">
+                        <div class="role-duration">
+                            <h3 class="role-title">Associate Software Engineer</h3>
+                            <span class="duration">Jun 2023 – Feb 2025</span>
+                        </div>
+                        <div class="company-name">
+                            <i class="ri-building-line"></i> ZI Systech, Bandra (Hybrid)
+                        </div>
+                    </div>
+                    <ul class="exp-points">
+                        <li>Worked as a Full Stack Developer using Angular, .NET Core/MVC, and SQL Server to build
+                            scalable enterprise applications.</li>
+                        <li>Migrated legacy applications to modern .NET Core architecture, improving performance and
+                            reducing technical debt.</li>
+                        <li>Implemented Single Sign-On (SSO) using Google and Azure, enhancing authentication security
+                            and user convenience.</li>
+                        <li>Debugged and resolved complex production issues using strong problem-solving skills,
+                            improving system stability and reducing downtime.</li>
+                        <li>Collaborated with cross-functional teams to deliver high-quality and scalable software
+                            solutions.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section-cls reveal">
+            <div class="section-header-container reveal">
+                <p class="chonburi-regular section-title-txt">Featured Projects</p>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="projects-grid reveal">
+                <!-- Project 1: LiveChatApp -->
+                <div class="project-card reveal">
+                    <div class="project-icon"><i class="ri-chat-voice-fill"></i></div>
+                    <h3 class="project-title">LiveChatApp Powered by AI</h3>
+                    <p class="project-tech">.NET 8, Angular 18, SignalR, AI Integrated</p>
+                    <p class="project-description">A sophisticated multi-tenant real-time communication platform
+                        designed for corporate environments. Built with a Clean Architecture, it features a
+                        JWT-protected SignalR chat system enhanced with AI-powered support capabilities.</p>
+                    <div class="project-footer">
+                        <div class="project-links-row">
+                            <a href="https://github.com/SunderMishra734/LiveChatAppFrontend" target="_blank"
+                                style="text-decoration: none;">
+                                <div class="view-code-btn"><i class="ri-github-fill"></i> Frontend</div>
+                            </a>
+                            <a href="https://github.com/SunderMishra734/LiveChatAppBackend" target="_blank"
+                                style="text-decoration: none;">
+                                <div class="view-code-btn"><i class="ri-github-fill"></i> Backend</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Yoga Management Studio -->
+                <div class="project-card reveal">
+                    <div class="project-icon"><i class="ri-leaf-fill"></i></div>
+                    <h3 class="project-title">Yoga Management Studio</h3>
+                    <p class="project-tech">.NET 6, SQL Server, MVC, MediatR (CQRS)</p>
+                    <p class="project-description">A full-stack enterprise management system for yoga centers.
+                        Implements Clean Architecture and CQRS, featuring Role-Based Access Control (RBAC), Firebase
+                        notifications, and automated scheduling workflows.</p>
+                    <div class="project-footer">
+                        <a href="https://github.com/SunderMishra734/YogaManagementStudio" target="_blank"
+                            style="text-decoration: none;">
+                            <div class="view-code-btn"><i class="ri-github-fill"></i> View Repository</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section-cls reveal">
+            <div class="section-header-container reveal">
+                <p class="chonburi-regular section-title-txt">Education</p>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="education-container reveal">
+                <!-- Education Item 1: BE -->
+                <div class="edu-card reveal-left">
+                    <div class="edu-header">
+                        <div class="degree-duration">
+                            <h3 class="edu-degree">Bachelor of Engineering - BE, Computer Engineering</h3>
+                            <span class="duration">Aug 2019 – May 2023</span>
+                        </div>
+                        <div class="college-info">
+                            <i class="ri-government-line"></i> Shree L. R. Tiwari College of Engineering
+                        </div>
+                        <div class="edu-grade">Grade: 9.32</div>
+                    </div>
+                    <p class="edu-description">
+                        Completed Bachelor of Engineering (B.E.) in Computer Engineering from Shree L.R. Tiwari College
+                        of Engineering. Developed strong knowledge in software development, data structures, algorithms,
+                        and database management, along with practical experience in building web applications.
+                    </p>
+                    <div class="edu-activities">
+                        <p><strong>Activities and societies:</strong> Hackathon 💻, Coding Competition 🏆, Carnaval 🎭
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education Item 2: HSC -->
+                <div class="edu-card reveal-right">
+                    <div class="edu-header">
+                        <div class="degree-duration">
+                            <h3 class="edu-degree">HSC, Science</h3>
+                            <span class="duration">Jun 2018 – Feb 2019</span>
+                        </div>
+                        <div class="college-info">
+                            <i class="ri-government-line"></i> MSBSHSE
+                        </div>
+                        <div class="edu-grade">Grade: A</div>
+                    </div>
+                    <p class="edu-description">
+                        Completed Higher Secondary Education (12th) in the Science stream from Shree Shankar Narayan
+                        College of Arts, Commerce and Science. Built strong fundamentals in Physics, Chemistry, and
+                        Mathematics, enhancing analytical thinking, numerical ability, and a disciplined approach to
+                        learning.
+                    </p>
+                    <div class="edu-activities">
+                        <p><strong>Activities and societies:</strong> Chess ♟️, Running 🏃‍♂️</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Me Section -->
         <section id="contact" class="contact-me-section-cls reveal">
             <div class="section-header-container reveal">
                 <p class="chonburi-regular section-title-txt">Contact Me</p>
                 <div class="section-underline"></div>
             </div>
-            
+
             <div class="contact-chips-container reveal">
                 <div class="contact-chip">
                     <div class="chip-icon"><i class="ri-mail-fill"></i></div>
@@ -158,21 +326,24 @@
                     <p class="form-title">Do you have a job offer?<br>Send me a message!</p>
                     <input type="hidden" name="access_key" value="748d71e8-3d30-49fb-bb7e-da11246aad58">
                     <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Your Name..." class="contact-input" required>
+                        <input type="text" id="name" name="name" placeholder="Your Name..." class="contact-input"
+                            required>
                     </div>
                     <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Your Email..." class="contact-input" required>
+                        <input type="email" id="email" name="email" placeholder="Your Email..." class="contact-input"
+                            required>
                     </div>
                     <div class="form-group">
-                        <textarea name="message" id="message" cols="30" rows="8" class="contact-textarea" placeholder="Write your message here..." required></textarea>
+                        <textarea name="message" id="message" cols="30" rows="8" class="contact-textarea"
+                            placeholder="Write your message here..." required></textarea>
                     </div>
                     <div class="send-container">
                         <div class="send-btn">Send Message</div>
                     </div>
                 </form>
             </div>
-        </div>
-    </section>
+            </div>
+        </section>
     </main>
 
     <!-- Custom JS -->

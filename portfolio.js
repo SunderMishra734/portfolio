@@ -8,18 +8,7 @@ $(document).ready(function () {
         }
     });
 
-    // Smooth adjustment logic from script.js
-    function checkHeight() {
-        var contentHeight = $('body').outerHeight();
-        var screenHeight = $(window).height();
-        if (contentHeight > screenHeight) {
-            $("body").css("height", "auto");
-        } else {
-            $("body").css("height", "100vh");
-        }
-    }
-    checkHeight();
-    $(window).resize(checkHeight);
+    // Smooth adjustment logic removed in favor of CSS min-height: 100dvh
 
     // Navigation Logic
     $(".menu-container-cls").click(function () {

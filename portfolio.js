@@ -51,10 +51,10 @@ $(document).ready(function () {
     });
 
     $(".resume-btn-modern").click(function () {
-        var pdfUrl = "/Images/Resume.pdf";
+        var pdfUrl = "portfolio/Images/Resume.pdf";
         var link = $("<a>").attr({
             href: pdfUrl,
-            download: "sunder_resume.pdf"
+            download: "Sunder_Resume.pdf"
         }).appendTo("body");
         link[0].click();
         link.remove();

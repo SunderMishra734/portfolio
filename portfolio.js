@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // Header Scrolled Effect
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         if ($(window).scrollTop() > 50) {
             $('header').addClass('scrolled');
         } else {
@@ -20,16 +20,16 @@ $(document).ready(function () {
     });
 
     // Close menu on link click (mobile)
-    $(".nav-bar-container-cls nav ul li a").click(function() {
+    $(".nav-bar-container-cls nav ul li a").click(function () {
         if ($(window).width() <= 768) {
             $(".nav-bar-container-cls").css('right', '-100%').fadeOut(300);
         }
     });
 
     // Active State & Scroll Spy
-    $(window).on('scroll', function() {
+    $(window).on('scroll', function () {
         var scrollPos = $(window).scrollTop();
-        $('section').each(function() {
+        $('section').each(function () {
             var top = $(this).offset().top - 150;
             var bottom = top + $(this).outerHeight();
 
@@ -51,7 +51,7 @@ $(document).ready(function () {
     });
 
     $(".resume-btn-modern").click(function () {
-        var pdfUrl = "Images/resume.pdf";
+        var pdfUrl = "/Images/resume.pdf";
         var link = $("<a>").attr({
             href: pdfUrl,
             download: "sunder_resume.pdf"
@@ -66,12 +66,12 @@ $(document).ready(function () {
         var name = $('#name').val();
         var email = $('#email').val();
         var message = $('#message').val();
-        
+
         if (!name || !email || !message) {
             alert("Please fill in all fields.");
             return;
         }
-        
+
         if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
             alert("Please enter a valid email address.");
             return;

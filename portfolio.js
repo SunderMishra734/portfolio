@@ -51,7 +51,7 @@ $(document).ready(function () {
     });
 
     $(".resume-btn-modern").click(function () {
-        var pdfUrl = "/Images/resume.pdf";
+        var pdfUrl = "/portfolio/Images/resume.pdf";
         var link = $("<a>").attr({
             href: pdfUrl,
             download: "sunder_resume.pdf"

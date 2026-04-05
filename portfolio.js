@@ -52,12 +52,13 @@ $(document).ready(function () {
 
     $(".resume-btn-modern").click(function () {
         var pdfUrl = "/portfolio/Images/Resume.pdf";
-        var link = $("<a>").attr({
-            href: pdfUrl,
-            download: "Sunder_Resume.pdf"
-        }).appendTo("body");
-        link[0].click();
-        link.remove();
+        var link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Sunder_Mishra_Resume.pdf";
+
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     });
 
     // Form Submission Logic

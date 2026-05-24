@@ -47,7 +47,7 @@ $(document).ready(function () {
     });
 
     $(".ri-linkedin-box-fill").click(function () {
-        window.open("https://www.linkedin.com/in/sunder-mishra-217510211/", "_blank");
+        window.open("https://www.linkedin.com/in/sundermishra/", "_blank");
     });
 
     $(".resume-btn-modern").click(function () {
